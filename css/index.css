@@ -1,0 +1,208 @@
+body {
+    background-color: black;
+}
+
+#heleNavbar {
+    display: flex;
+    flex-direction: row;
+}
+
+#background {
+    width: 100%;
+    z-index: -1;
+    max-height: 1000px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+#DankjeVoorJeBesteling {
+    color: #fff;
+    text-align: center;
+}
+nav img {
+    width: 20%;
+}
+
+#logo {
+    width: 50%;
+}
+
+nav div {
+    position: fixed;
+    position: static;
+}
+#navbarNav {
+    margin-right: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cart-dropdown {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    width: 130%;
+    justify-content: space-around;
+    display: flex;
+}
+#groteLettersNavbar {
+    font-size: 4rem;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    color: white;
+    font-size: 2rem;
+}
+@media (max-width: 1400px) {
+    #heleNavbar {
+        display: flex;
+        flex-direction: row;
+    }
+
+   
+    #heleNavbar .navbar-brand,
+    #heleNavbar #navbarNav {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 25px;
+        margin-left: 20px;
+        width: 50%;
+        height: 50%;
+    }
+    #heleNavbar .navbar-brand img,
+    #heleNavbar .nav-link {
+        font-size: 1.5rem;
+    }
+
+    #heleNavbar #cart {
+        display: flex;
+        justify-content: center;
+    }
+
+    #heleNavbar #navbarNav .nav-link {
+        margin-right: 20px; 
+    }
+
+    #heleNavbar #navbarNav {
+        flex-direction: row;
+    }
+    .cart-count{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 980px){
+
+    #navbarNav{
+        position: relative;
+    }
+    #cart {
+    position: absolute;
+    right: 150px;
+}
+
+}
+
+#producten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#producten div {
+    border: 2px solid black;
+    margin: 80px;
+    padding: 80px 40px 80px 40px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+#producten button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+#producten input {
+    width: 50px;
+    margin-right: 30px;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+
+#middenBody {
+    display: flex;
+    justify-content: space-around;
+}
+
+#getStarted {
+    z-index: 3;
+}
+
+.cart-dropdown {
+    position: relative;
+}
+
+.cart-items {
+    display: none;
+    position: fixed;
+    
+    right: 0;
+    width: 500px; 
+    min-height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    overflow-y: auto; 
+}
+
+.cart-dropdown.show .cart-items {
+    display: block;
+}
+#infoProductShoppingCart {
+    font-size: 1rem;
+}
+#imgProductShoppingcart {
+    width: 15%;
+    margin-right: 20px;
+}
+.cart-items div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: center;
+}
+
+.cart-items button {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-items p {
+   margin-top: 4%;
+}
+
+#onderaanWinkelmand {
+  position: absolute;
+  bottom: 100px;
+}
+
+
