@@ -21,4 +21,8 @@ de producten worden ingeladen uit de json file en moet makkelijk een product toe
 Op de index pagina moet er een mooie achtergond foto te zien zijn van het product plus wat algemene informatie wat het inhoud en een navbar. ook moet een een knop of plek zijn buiten de navbar dat je naar de store.html kan gaan naast de navbar. met bootstrap wil ik het er mooi uit laten zien zowel op de computer als op je telefoon. 
 In de store.html kun je alle producten zien dien zijn ingeladen mooi naast elkaar met een goed img er van. Ook moet je kunnen zeggen dat je ze in je winkelmandje kan stoppen. De winkel mand moet een deel van het linker scherm in beslag nemen als je op de computer zit en op de telefoon zal het je helescherm in beslag nemen. Dit is mogelijk met Bootstrap en moet active en inactive gemaakt worden. 
 
+## informatie
 
+De website is te vinden op https://3d-bulbasaur.netlify.app/
+
+om hem lokaal te runnen zou je het bestand moeten openen via vscode en dan is het beste om te beginne bij index.html. Dan kan je makelijk naar de store gaan en vind je ook de winkeland.
