@@ -1,0 +1,61 @@
+body{
+    position: relative;
+}
+.nav-tabs .nav-link:not(.active) {
+    color: white;
+}
+
+th {
+    border-bottom: 2px solid white;
+}
+#datumEnTijd {
+    width: 200px;
+}
+
+tr {
+    border-bottom: 2px solid white;
+    
+}
+td{
+    padding-left: 20px;
+}
+button {
+    border-radius: 20px;
+    margin-left: 150px;
+}
+#nieuwProduct{
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: xx-large;
+    position: absolute;
+    right: 100px;
+    top: 75px;
+}
+
+#voegProductToe{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 15%;
+}
+
+#addproduct{
+    margin: 100px;
+    margin-left: 300px;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+}
+
+#editproduct{
+    margin: 100px;
+    margin-left: 300px;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+}
